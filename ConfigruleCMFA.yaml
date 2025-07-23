@@ -49,7 +49,7 @@ proxies:
         Host: sg2ray.jagoanvip.xyz
     udp: true
   - name: AKUN2
-    server: sg.xvmess.site
+    server: quiz.vidio.com
     port: 443
     type: vmess
     uuid: 876d6afa-7795-5981-81c8-479946f20f33
@@ -57,12 +57,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.vidio.com
+    servername: sg.xvmess.site
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: 
+        Host: sg.xvmess.site
     udp: true
   - name: AKUN3
     server: quiz.int.vidio.com
