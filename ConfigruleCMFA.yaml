@@ -49,21 +49,6 @@ proxies:
         Host: sg2ray.jagoanvip.xyz
     udp: true
   - name: AKUN4
-    server: quiz.vidio.com
-    port: 443
-    type: vmess
-    uuid: 876d6afa-7795-5981-81c8-479946f20f33
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg.xvmess.site
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg.xvmess.site
-    udp: true
 proxy-groups:
   - name: ID-X
     type: fallback
@@ -71,14 +56,12 @@ proxy-groups:
     interval: 300
     proxies:
       - AKUN1
-      - AKUN4
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - AKUN1
-      - AKUN4      
   - name: IKLAN
     type: select
     proxies:
