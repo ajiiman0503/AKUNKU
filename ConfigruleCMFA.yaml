@@ -48,7 +48,6 @@ proxies:
       headers:
         Host: sg2ray.jagoanvip.xyz
     udp: true
-  - name: AKUN4
 proxy-groups:
   - name: ID-X
     type: fallback
