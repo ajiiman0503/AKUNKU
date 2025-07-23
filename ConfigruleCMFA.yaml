@@ -49,19 +49,20 @@ proxies:
         Host: sg2ray.jagoanvip.xyz
     udp: true
   - name: AKUN2
-    server: quiz.int.vidio.com
+    server: sg.xvmess.site
     port: 443
-    type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
+    type: vmess
+    uuid: 876d6afa-7795-5981-81c8-479946f20f33
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: quiz.vidio.com
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vmess
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: 
     udp: true
   - name: AKUN3
     server: quiz.int.vidio.com
