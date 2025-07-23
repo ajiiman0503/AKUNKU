@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.vidio.com
+    server: support.vidio.com
     port: 443
     type: vmess
     uuid: d99c201e-4d4d-4db4-8fc9-e6d328f28800
@@ -49,7 +49,7 @@ proxies:
         Host: sg2ray.jagoanvip.xyz
     udp: true
   - name: AKUN2
-    server: quiz.vidio.com
+    server: support.vidio.com
     port: 443
     type: vmess
     uuid: 3d050eed-20ba-400d-a16d-1bf8fc278017
@@ -63,7 +63,7 @@ proxies:
       grpc-service-name: grpc
     udp: true
   - name: AKUN3
-    server: quiz.vidio.com
+    server: support.vidio.com
     port: 443
     type: vmess
     uuid: 63c7a3a0-bfa0-4b0b-a38d-092c142a6436
